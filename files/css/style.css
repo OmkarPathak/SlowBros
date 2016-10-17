@@ -1,0 +1,171 @@
+p{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+}
+
+/*------------------Header----------------*/
+#Header{
+	height:110vh;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/laptop.jpg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	position:relative;
+	margin-top:-50px;
+}
+
+.Header{
+	height:110vh;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/omkar.jpg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	position:relative;
+	margin-top:-50px;
+}
+
+#Header h1{
+	text-shadow:2px 2px black;
+	position:absolute;
+	margin-left:45%;
+	margin-top:-50px;
+	position:bottom;
+	bottom:50px;
+	text-align:center;
+	color:white;
+    font-family: sans-serif;
+}
+
+#Header button{
+    background-color: darkorange;
+	position:absolute;
+	margin:6px 0 0 25px;
+    box-shadow: 2px 2px black;
+    border-color: darkorange;
+}
+
+#Header button:hover{
+    background-color: burlywood;
+}
+@media only screen and (max-width: 766px){
+	#Header h1{margin-left:42%;}
+}
+@media only screen and (max-width: 456px){
+	#Header h1{margin-left:32%;}
+}
+
+
+.icon-bar{
+	background-color:white;
+}
+
+/*-------------------Navbar---------------*/
+@media only screen and (max-width: 766px){
+	.navbar-collapse{
+		background-color: black;
+        text-decoration: none;
+        text-align: center;
+	}
+    
+    .icon-bar{
+        margin-top: 15px;
+	background-color:white;
+    }
+    
+}
+.navbar-fixed-top:hover{
+	background:transparent;
+}
+.navbar-fixed-top h3{
+	color:#fff;
+	text-align:center;
+	padding-top:10px;
+	text-shadow: 2px 2px black;
+	background:transparent;
+}
+.navbar-fixed-top h3:link,
+.navbar-fixed-top h3:visited{
+	color:#fff;
+	font-size:18px;
+	font-style: bold;
+	text-decoration:none;
+	text-transform:uppercase;
+	border-bottom:2px solid transparent;
+	transition:border-bottom 0.2s;
+	padding-top:30px;
+	text-shadow: 2px 2px black;
+	background:transparent;
+}
+
+.navbar-fixed-top h3:hover,
+.navbar-fixed-top h3:active{
+    padding-bottom: 10px;
+	border-bottom:2px solid darkorange;
+	background:transparent;
+	text-shadow: 2px 2px black;
+}
+
+.navbar-fixed-top{
+	background:transparent;
+	padding-top:0px;
+	text-align:center;
+	text-shadow: 2px 2px black;
+	
+}
+.navbar-brand{
+	padding-top:0px;
+	margin-top:0px;
+}
+
+.navbar-nav li a:link,
+.navbar-nav li a:visited{
+	color:#fff;
+	font-size:18px;
+	text-decoration:none;
+	text-transform:uppercase;
+	border-bottom:2px solid transparent;
+	transition:border-bottom 0.2s;
+	padding-top:30px;
+	font-style: bold;
+	text-shadow: 2px 2px black;
+	background:transparent;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li a:active{
+	border-bottom:2px solid darkorange;
+	background:transparent;
+	text-shadow: 2px 2px black;
+}
+/*------------------Projects----------------*/
+.thumbnail button{
+    display: table;
+    margin:0px auto;
+}
+.thumbnail button:hover{
+    background-color: darkorange;
+    color: white;
+    display: table;
+    margin:0px auto;
+}
+
+/*.thumbnail img a:hover{
+    background-color: darkorange;
+    color: white;
+    display: table;
+    margin:0px auto;
+}*/
+
+.thumbnail a:hover{
+    text-decoration: none;
+    text-underline-position: none;
+}
+
+
+/*------------------ABOUT US----------------*/
+
+#AboutUs{
+    background-color: whitesmoke;
+}
