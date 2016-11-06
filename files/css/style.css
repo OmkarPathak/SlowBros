@@ -1,8 +1,11 @@
 p{
 	font-family: "Times New Roman", Times, serif;
-	font-size: 18px;
+	font-size: 20px;
 }
 
+pre{
+	font-size: 17px;
+}
 /*------------------Header----------------*/
 #Header{
 	height:110vh;
@@ -76,14 +79,14 @@ p{
     
 }
 .navbar-fixed-top:hover{
-	background:transparent;
+	background:lightgray;
 }
 .navbar-fixed-top h3{
 	color:#fff;
 	text-align:center;
 	padding-top:10px;
 	text-shadow: 2px 2px black;
-	background:transparent;
+	background:lightgray;
 }
 .navbar-fixed-top h3:link,
 .navbar-fixed-top h3:visited{
@@ -96,19 +99,19 @@ p{
 	transition:border-bottom 0.2s;
 	padding-top:30px;
 	text-shadow: 2px 2px black;
-	background:transparent;
+	background:lightgray;
 }
 
 .navbar-fixed-top h3:hover,
 .navbar-fixed-top h3:active{
     padding-bottom: 10px;
 	border-bottom:2px solid darkorange;
-	background:transparent;
+	background:lightgray;
 	text-shadow: 2px 2px black;
 }
 
 .navbar-fixed-top{
-	background:transparent;
+	background:lightgray;
 	padding-top:0px;
 	text-align:center;
 	text-shadow: 2px 2px black;
@@ -130,13 +133,13 @@ p{
 	padding-top:30px;
 	font-style: bold;
 	text-shadow: 2px 2px black;
-	background:transparent;
+	background:lightgray;
 }
 
 .navbar-nav li a:hover,
 .navbar-nav li a:active{
 	border-bottom:2px solid darkorange;
-	background:transparent;
+	background:lightgray;
 	text-shadow: 2px 2px black;
 }
 /*------------------Projects----------------*/
@@ -163,7 +166,50 @@ p{
     text-underline-position: none;
 }
 
+/*------------------SIDEBAR----------------*/
 
+
+#sidebar{
+	background-color: #151718;
+	width: 200px;
+	position: absolute;
+	left: 0px; 
+	transition: left 0.3s linear;
+}
+
+#sidebar.visible{
+	left: 0px;
+	transition: left 0.3s linear;
+	background: #151718;
+}
+
+
+#sidebar ul{
+	background: #151718;
+	width: 200px;
+	left: 2px;
+	padding-left:10px; 
+}
+
+#sidebar ul li a{
+	display: block;
+	background: #151718;
+	padding: 10px; 
+
+}
+#sidebar-btn{
+	vertical-align: middle;
+	cursor: pointer;
+	position: relative;
+	top: 0px;
+}
+#sidebar-btn span{ 
+	height: 1px;
+	background-color: #111;
+	margin-bottom: 5px;
+	display: block;
+	margin-left: 2px;
+}
 /*------------------ABOUT US----------------*/
 
 #AboutUs{

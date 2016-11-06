@@ -1,3 +1,6 @@
+<?php
+    $con = mysqli_connect('localhost','root','8149omkar','slowbros');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +14,8 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
-    <link href="css/prettify.css" rel="stylesheet">
+    <link href="css/prism.css" rel="stylesheet">
+    <link href="css/simple-sidebar.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,8 +25,33 @@
     <![endif]-->
 </head>
 <body>
-  <div class="wrapper">
-    <!-- Navigation -->
+<div id="wrapper" style="margin-top:70px;">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        More Tutorials:
+                    </a>
+                </li>
+                <?php
+                $sql = $con->query("SELECT * FROM init");
+                while($row = $sql->fetch_array()){
+                    $option = $row['HTML'];
+                    echo '
+                            <li>
+                                '.$option.' 
+                            </li>
+                         ';
+                 }
+
+            ?>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+         <!-- Navigation -->
     <nav class="navbar  navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -51,3 +80,10 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
+
+    <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                    <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a><br>

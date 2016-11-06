@@ -1,0 +1,13 @@
+<div class="col-md-4 m-b-lg">
+          <div class="panel panel-default panel-profile m-b-0">
+            <div class="panel-heading" style="background-image: url(//cdn.shopify.com/s/files/1/0691/5403/t/128/assets/insta-1.jpg?12510731831507118242);"></div>
+            <div class="panel-body text-center">
+              <img class="panel-profile-img" src="//cdn.shopify.com/s/files/1/0691/5403/t/128/assets/avatar-mdo.jpg?12510731831507118242">
+              <h5 class="panel-title">Mark Otto</h5>
+              <p class="m-b">Design at GitHub. Creator of Bootstrap. Previously at Twitter. Huge nerd.</p>
+              <a href="//github.com/mdo" target="_blank" class="btn btn-primary-outline btn-sm m-b">
+                <span class="icon icon-add-user"></span> View GitHub
+              </a>
+            </div>
+          </div>
+        </div>

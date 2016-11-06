@@ -116,31 +116,31 @@
                     <div class="thumbnail">
                         <img src="images/laptop.jpg">
                         <div class="caption text-center"><h3>Omkar Pathak</h3></div>
-                        <button class="btn btn-default">View</button>
-                    </div>
-                </div><!-- COLUMN END -->
-                
-                <div class="col-md-3">
-                    <div class="thumbnail">
-                        <img src="images/laptop.jpg">
-                        <div class="caption text-center"><h3>Omkar Pathak</h3></div>
-                        <button class="btn btn-default">View</button>
-                    </div>
-                </div><!-- COLUMN END -->
-                
-                <div class="col-md-3">
-                    <div class="thumbnail">
-                        <img src="images/laptop.jpg">
-                        <div class="caption text-center"><h3>Omkar Pathak</h3></div>
-                        <button class="btn btn-default">View</button>
-                    </div>
-                </div><!-- COLUMN END -->
-                
-                <div class="col-md-3">
-                    <div class="thumbnail">
-                        <img src="images/laptop.jpg">
-                        <div class="caption text-center"><h3>Omkar Pathak</h3></div>
                         <a href="#modal1"  data-toggle="modal"><button class="btn btn-default">View</button></a>
+                    </div>
+                </div><!-- COLUMN END -->
+                
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <img src="images/laptop.jpg">
+                        <div class="caption text-center"><h3>Akash Nalawade</h3></div>
+                        <a href="#modal2"  data-toggle="modal"><button class="btn btn-default">View</button></a>
+                    </div>
+                </div><!-- COLUMN END -->
+                
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <img src="images/laptop.jpg">
+                        <div class="caption text-center"><h3>Chinmay Kaundanya</h3></div>
+                        <a href="#modal3"  data-toggle="modal"><button class="btn btn-default">View</button></a>
+                    </div>
+                </div><!-- COLUMN END -->
+                
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <img src="images/laptop.jpg">
+                        <div class="caption text-center"><h3>Sanket Parode</h3></div>
+                        <a href="#modal4"  data-toggle="modal"><button class="btn btn-default">View</button></a>
                     </div>
                 </div><!-- COLUMN END -->
             </div><!-- ROW END -->
@@ -184,13 +184,115 @@
     			<div class="modal-footer">
     				<a class="btn btn-danger" data-dismiss="modal">Close</a>
     			</div>
-    		</div>
-    	</div>
-    </div>
+    		</div><!-- MODAL CONTENT END -->
+    	</div><!-- MODAL DIALOG END -->
+    </div><!-- MODAL END -->
+
+    <div class="modal fade" role="dialog" id="modal2">
+    	<div class="modal-dialog">
+    		<div class="modal-content">		
+    			<div class="modal-header text-center">
+    				<h3>Akash Nalawade</h3>
+    			</div>
+    			<div class="modal-body">
+                    <div class="container">
+                        <img class=" col-md-5 text-center img-responsive" src="images/laptop.jpg">
+                        <!--<div class="caption text-center">      
+                        </div>-->
+                    </div>
+                    <h3 class="text-center">Computer Engineering</h3><br>
+                    <div class="col-sm-6">
+                        <ol class="pull-left">
+                            <li>Loves Programming</li>
+                            <li>IoT Workshops</li>
+                            <li>Enthusiast</li>
+                        </ol>
+                    </div>
+                    <div class="col-sm-6">
+                        <b>Contact:</b><br><p>omkarpathak27@gmail.com</p>
+                    </div>
+    			</div>
+                <br>
+                <br>
+                <br>
+    			<div class="modal-footer">
+    				<a class="btn btn-danger" data-dismiss="modal">Close</a>
+    			</div>
+    		</div><!-- MODAL CONTENT END -->
+    	</div><!-- MODAL DIALOG END -->
+    </div><!-- MODAL END -->
+
+    <div class="modal fade" role="dialog" id="modal3">
+    	<div class="modal-dialog">
+    		<div class="modal-content">		
+    			<div class="modal-header text-center">
+    				<h3>Chinmay Kaundanya</h3>
+    			</div>
+    			<div class="modal-body">
+                    <div class="container">
+                        <img class=" col-md-5 text-center img-responsive" src="images/laptop.jpg">
+                        <!--<div class="caption text-center">      
+                        </div>-->
+                    </div>
+                    <h3 class="text-center">Computer Engineering</h3><br>
+                    <div class="col-sm-6">
+                        <ol class="pull-left">
+                            <li>Loves Programming</li>
+                            <li>IoT Workshops</li>
+                            <li>Enthusiast</li>
+                        </ol>
+                    </div>
+                    <div class="col-sm-6">
+                        <b>Contact:</b><br><p>omkarpathak27@gmail.com</p>
+                    </div>
+    			</div>
+                <br>
+                <br>
+                <br>
+    			<div class="modal-footer">
+    				<a class="btn btn-danger" data-dismiss="modal">Close</a>
+    			</div>
+    		</div><!-- MODAL CONTENT END -->
+    	</div><!-- MODAL DIALOG END -->
+    </div><!-- MODAL END -->
+
+    <div class="modal fade" role="dialog" id="modal4">
+    	<div class="modal-dialog">
+    		<div class="modal-content">		
+    			<div class="modal-header text-center">
+    				<h3>Sanket Parode</h3>
+    			</div>
+    			<div class="modal-body">
+                    <div class="container">
+                        <img class=" col-md-5 text-center img-responsive" src="images/laptop.jpg">
+                        <!--<div class="caption text-center">      
+                        </div>-->
+                    </div>
+                    <h3 class="text-center">Computer Engineering</h3><br>
+                    <div class="col-sm-6">
+                        <ol class="pull-left">
+                            <li>Loves Programming</li>
+                            <li>IoT Workshops</li>
+                            <li>Enthusiast</li>
+                        </ol>
+                    </div>
+                    <div class="col-sm-6">
+                        <b>Contact:</b><br><p>omkarpathak27@gmail.com</p>
+                    </div>
+    			</div>
+                <br>
+                <br>
+                <br>
+    			<div class="modal-footer">
+    				<a class="btn btn-danger" data-dismiss="modal">Close</a>
+    			</div>
+    		</div><!-- MODAL CONTENT END -->
+    	</div><!-- MODAL DIALOG END -->
+    </div><!-- MODAL END -->
 
     <!-- Content Section END -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script>

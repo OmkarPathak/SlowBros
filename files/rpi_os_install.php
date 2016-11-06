@@ -1,7 +1,16 @@
 <?php 
     include ('includes/header.php');
 ?>
-    <div class="container container1"  style="margin-top:100px;">
+         <?php
+
+        $filename = 'rpi_os_install.php';
+        if (file_exists($filename)) {
+            echo "<small style='color:gray;'>Created at: " . date ("F d Y H:i:s.", filectime($filename))."<br></small>";
+            echo "<small style='color:gray;'>Last modified at: " . date ("F d Y H:i:s.", getlastmod())."</small>";
+        }
+
+        ?>
+        <div class="row"></div>
         <h2 class="text-center">How to install Raspbian OS on Raspberry Pi </h2><br>
         <ul>
             <li>
@@ -67,10 +76,7 @@
                 </p>
             </li><br>
         </ul>
-        <pre><code>
-             &lt?php echo "Hello"; ?>
-        </code></pre>
-    </div>
+        <pre class="line-numbers"><code class="language-php">&lt?php echo "Hello"; ?></code></pre>
     <style type="text/css">
         .container1{
             background-color: #f8f8f8;
